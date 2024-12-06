@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1733450278 source:c:\users\joao paulo\downloads\sb1-ayuckg\src\utils\menu.c
+	<stdio.h>
+	"menu.h"
+	"../services/pizza_service.h"
+	"../services/ingrediente_service.h"
+
+1733450186 source:c:\users\joao paulo\downloads\sb1-ayuckg\pizza\main.c
+	<stdio.h>
+	"../src/utils/menu.h"
+	"../src/services/pizza_service.h"
+	"../src/services/ingrediente_service.h"
+	"../src/utils/file_handler.h"
+
+1733458522 c:\users\joao paulo\downloads\sb1-ayuckg\src\utils\menu.h
+
+1733458522 c:\users\joao paulo\downloads\sb1-ayuckg\src\services\pizza_service.h
+	"../models/pizza.h"
+
+1733458522 c:\users\joao paulo\downloads\sb1-ayuckg\src\models\pizza.h
+	"ingrediente.h"
+
+1733458522 c:\users\joao paulo\downloads\sb1-ayuckg\src\models\ingrediente.h
+
+1733458522 c:\users\joao paulo\downloads\sb1-ayuckg\src\services\ingrediente_service.h
+	"../models/ingrediente.h"
+
+1733450134 c:\users\joao paulo\downloads\sb1-ayuckg\src\utils\file_handler.h
+
+1733450134 source:c:\users\joao paulo\downloads\sb1-ayuckg\src\utils\file_handler.c
+	<stdio.h>
+	<string.h>
+	"file_handler.h"
+	"../services/pizza_service.h"
+	"../services/ingrediente_service.h"
+
+1733450892 source:c:\users\joao paulo\downloads\sb1-ayuckg\src\services\pizza_service.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"ingrediente_service.h"
+	"pizza_service.h"
+	"../utils/file_handler.h"
+
+1733449631 source:c:\users\joao paulo\downloads\sb1-ayuckg\src\services\ingrediente_service.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"ingrediente_service.h"
+	"pizza_service.h"
+
